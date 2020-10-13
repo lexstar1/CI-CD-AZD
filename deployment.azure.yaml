@@ -14,7 +14,7 @@ spec:
     spec: 
       containers: 
       - name: angular 
-        image: houssemdocker/angular-app:#{Build.BuildId}#
+        image: hydro.azurecr.io/lexstarcicdazd:10
         ports: 
         - containerPort: 80 
 --- 
