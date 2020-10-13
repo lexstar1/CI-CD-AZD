@@ -16,7 +16,9 @@ spec:
       - name: angular 
         image: hydro.azurecr.io/lexstarcicdazd:10
         ports: 
-        - containerPort: 80 
+        - containerPort: 80
+      imagePullSecrets:
+      - name: acrKonnect
 --- 
 # https://kubernetes.io/docs/concepts/services-networking/service/#defining-a-service  
 kind: Service 
