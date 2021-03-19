@@ -14,7 +14,7 @@ spec:
     spec: 
       containers: 
       - name: angular 
-        image: hydro.azurecr.io/lexstarcicdazd:10
+        image: hydro.azurecr.io/lexstarcicdazd:#{Build.BuildId}#
         ports: 
         - containerPort: 80
       imagePullSecrets:
