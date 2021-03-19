@@ -1,4 +1,4 @@
-#CI/CD for AKS with Azure DevOps
+#CI/CD - Azure DevOps and AKS
 
 This project is to :
 
